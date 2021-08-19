@@ -29,6 +29,10 @@ dtb-$(CONFIG_EXYNOS5) += exynos5250-arndale.dtb \
 	exynos5422-odroidxu3.dtb
 dtb-$(CONFIG_EXYNOS7420) += exynos7420-espresso7420.dtb
 
+dtb-$(CONFIG_TARGET_TM2) += exynos5433-tm2.dtb
+
+dtb-$(CONFIG_TARGET_TRE3CALTE) += exynos5433-tre3calte.dtb
+
 dtb-$(CONFIG_ARCH_DAVINCI) += \
 	da850-evm.dtb \
 	da850-lcdk.dtb \

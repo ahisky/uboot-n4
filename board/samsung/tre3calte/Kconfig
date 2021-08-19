@@ -1,0 +1,14 @@
+if TARGET_TRE3CALTE
+
+config SYS_BOARD
+	default "tre3calte"
+	help
+	  TRE3CALTE is Exynos5433 SoC based board, Samference board.
+
+config SYS_VENDOR
+	default "samsung"
+
+config SYS_CONFIG_NAME
+	default "tre3calte"
+
+endif
